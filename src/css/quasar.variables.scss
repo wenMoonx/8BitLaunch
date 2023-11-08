@@ -1,0 +1,80 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+$shadow-color: #000;
+
+$elevation-umbra: rgba($shadow-color, 0.2);
+$elevation-penumbra: rgba($shadow-color, 0.14);
+$elevation-ambient: rgba($shadow-color, 0.12);
+
+$generic-border-radius: var(--q-generic-border-radius);
+$button-border-radius: var(--q-generic-border-radius);
+
+$button-padding: 8px 24px;
+$button-shadow: 0 3px 5px -1px $elevation-umbra, 0 6px 10px $elevation-penumbra,
+  0 1px 18px $elevation-ambient;
+
+// Use this to expose vars
+:root {
+  --q-generic-border-radius: 20px;
+}
+
+.body--dark {
+  /* ... */
+  --q-defaultText: #fff;
+  --q-primaryBg: #212026;
+  --q-dark: #0e1117;
+  --q-secondaryBg: #0e1117;
+  --q-primary: #ffb800;
+  --q-secondary: #ef466f;
+  --q-accent: #252628;
+  --q-positive: #21ba45;
+  --q-negative: #ee6a5e;
+  --q-info: #ffd700;
+  --q-warning: #c0c0c0;
+  --q-gold: #ffd700;
+}
+
+.body--light {
+  // background-color: var(--q-secondaryBg);
+  --q-defaultText: #222222;
+  --q-primaryBg: #fff;
+  --q-secondaryBg: #ebe9e9;
+  --q-primary: #ffa200;
+  --q-secondary: #eabd09;
+  --q-accent: rgb(199, 199, 199);
+  --q-positive: #21ba45;
+  --q-negative: #ee6a5e;
+  --q-info: #ffd700;
+  --q-warning: #c0c0c0;
+  --q-gold: #ffd700;
+}
+
+.text-primaryBg {
+  color: var(--q-primaryBg) !important;
+}
+
+.text-defaultText {
+  color: var(--q-defaultText) !important;
+}
+
+.bg-primaryBg {
+  background: var(--q-primaryBg) !important;
+}
+
+.bg-defaultText {
+  background: var(--q-defaultText) !important;
+}
+$typography-font-family: 'Inter', 'Roboto', '-apple-system', 'Helvetica Neue',
+  Helvetica, Arial, sans-serif;

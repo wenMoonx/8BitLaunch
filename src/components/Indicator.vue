@@ -1,0 +1,11 @@
+<template>
+  <div
+    absolute
+    left="0"
+    top="1/2"
+    translate-y="-1/2"
+    w-1
+    h="12"
+    bg-primary
+  ></div>
+</template>
